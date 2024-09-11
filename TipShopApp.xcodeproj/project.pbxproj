@@ -10,7 +10,7 @@
 		9537D0F82C9059BF009D9BB6 /* ConfirmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9537D0F72C9059BF009D9BB6 /* ConfirmVC.swift */; };
 		9537D0FA2C9059D6009D9BB6 /* TipVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9537D0F92C9059D6009D9BB6 /* TipVC.swift */; };
 		9537D0FC2C9059E4009D9BB6 /* ReceiptVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9537D0FB2C9059E4009D9BB6 /* ReceiptVC.swift */; };
-		9537D0FE2C905A17009D9BB6 /* Confirm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9537D0FD2C905A17009D9BB6 /* Confirm.storyboard */; };
+		9537D0FE2C905A17009D9BB6 /* ConfirmVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9537D0FD2C905A17009D9BB6 /* ConfirmVC.storyboard */; };
 		9537D1002C905B68009D9BB6 /* Tip.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9537D0FF2C905B68009D9BB6 /* Tip.storyboard */; };
 		9537D1022C905BAE009D9BB6 /* Receipt.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9537D1012C905BAE009D9BB6 /* Receipt.storyboard */; };
 		9543587A2C9055870049A3C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954358792C9055870049A3C1 /* AppDelegate.swift */; };
@@ -19,13 +19,16 @@
 		954358812C9055870049A3C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9543587F2C9055870049A3C1 /* Main.storyboard */; };
 		954358832C9055880049A3C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 954358822C9055880049A3C1 /* Assets.xcassets */; };
 		954358862C9055880049A3C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 954358842C9055880049A3C1 /* LaunchScreen.storyboard */; };
+		95A5B3142C91359800F1E15E /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A5B3132C91359800F1E15E /* MenuItem.swift */; };
+		95A5B3162C91384300F1E15E /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A5B3152C91384300F1E15E /* API.swift */; };
+		95A5B3182C913C1000F1E15E /* HomeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A5B3172C913C1000F1E15E /* HomeTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9537D0F72C9059BF009D9BB6 /* ConfirmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmVC.swift; sourceTree = "<group>"; };
 		9537D0F92C9059D6009D9BB6 /* TipVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipVC.swift; sourceTree = "<group>"; };
 		9537D0FB2C9059E4009D9BB6 /* ReceiptVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptVC.swift; sourceTree = "<group>"; };
-		9537D0FD2C905A17009D9BB6 /* Confirm.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Confirm.storyboard; sourceTree = "<group>"; };
+		9537D0FD2C905A17009D9BB6 /* ConfirmVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConfirmVC.storyboard; sourceTree = "<group>"; };
 		9537D0FF2C905B68009D9BB6 /* Tip.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tip.storyboard; sourceTree = "<group>"; };
 		9537D1012C905BAE009D9BB6 /* Receipt.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Receipt.storyboard; sourceTree = "<group>"; };
 		954358762C9055870049A3C1 /* TipShopApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipShopApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +39,9 @@
 		954358822C9055880049A3C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		954358852C9055880049A3C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		954358872C9055880049A3C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95A5B3132C91359800F1E15E /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		95A5B3152C91384300F1E15E /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		95A5B3172C913C1000F1E15E /* HomeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			children = (
 				9543587D2C9055870049A3C1 /* HomeVC.swift */,
 				9543587F2C9055870049A3C1 /* Main.storyboard */,
+				95A5B3172C913C1000F1E15E /* HomeTableCell.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -62,7 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				9537D0F72C9059BF009D9BB6 /* ConfirmVC.swift */,
-				9537D0FD2C905A17009D9BB6 /* Confirm.storyboard */,
+				9537D0FD2C905A17009D9BB6 /* ConfirmVC.storyboard */,
 			);
 			path = Confirm;
 			sourceTree = "<group>";
@@ -109,12 +116,22 @@
 				954358872C9055880049A3C1 /* Info.plist */,
 				954358792C9055870049A3C1 /* AppDelegate.swift */,
 				9543587B2C9055870049A3C1 /* SceneDelegate.swift */,
+				95A5B3152C91384300F1E15E /* API.swift */,
+				95A5B3122C91357300F1E15E /* Model */,
 				9537D0F32C905846009D9BB6 /* Home */,
 				9537D0F42C905889009D9BB6 /* Confirm */,
 				9537D0F52C905896009D9BB6 /* Tip */,
 				9537D0F62C9058A1009D9BB6 /* Receipt */,
 			);
 			path = TipShopApp;
+			sourceTree = "<group>";
+		};
+		95A5B3122C91357300F1E15E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				95A5B3132C91359800F1E15E /* MenuItem.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +196,7 @@
 				9537D1002C905B68009D9BB6 /* Tip.storyboard in Resources */,
 				954358832C9055880049A3C1 /* Assets.xcassets in Resources */,
 				954358812C9055870049A3C1 /* Main.storyboard in Resources */,
-				9537D0FE2C905A17009D9BB6 /* Confirm.storyboard in Resources */,
+				9537D0FE2C905A17009D9BB6 /* ConfirmVC.storyboard in Resources */,
 				9537D1022C905BAE009D9BB6 /* Receipt.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,12 +208,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95A5B3142C91359800F1E15E /* MenuItem.swift in Sources */,
 				9543587E2C9055870049A3C1 /* HomeVC.swift in Sources */,
 				9537D0FC2C9059E4009D9BB6 /* ReceiptVC.swift in Sources */,
 				9537D0FA2C9059D6009D9BB6 /* TipVC.swift in Sources */,
 				9537D0F82C9059BF009D9BB6 /* ConfirmVC.swift in Sources */,
 				9543587A2C9055870049A3C1 /* AppDelegate.swift in Sources */,
+				95A5B3162C91384300F1E15E /* API.swift in Sources */,
 				9543587C2C9055870049A3C1 /* SceneDelegate.swift in Sources */,
+				95A5B3182C913C1000F1E15E /* HomeTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
