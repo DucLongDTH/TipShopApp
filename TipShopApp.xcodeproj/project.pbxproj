@@ -11,8 +11,8 @@
 		9537D0FA2C9059D6009D9BB6 /* TipVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9537D0F92C9059D6009D9BB6 /* TipVC.swift */; };
 		9537D0FC2C9059E4009D9BB6 /* ReceiptVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9537D0FB2C9059E4009D9BB6 /* ReceiptVC.swift */; };
 		9537D0FE2C905A17009D9BB6 /* ConfirmVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9537D0FD2C905A17009D9BB6 /* ConfirmVC.storyboard */; };
-		9537D1002C905B68009D9BB6 /* Tip.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9537D0FF2C905B68009D9BB6 /* Tip.storyboard */; };
-		9537D1022C905BAE009D9BB6 /* Receipt.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9537D1012C905BAE009D9BB6 /* Receipt.storyboard */; };
+		9537D1002C905B68009D9BB6 /* TipVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9537D0FF2C905B68009D9BB6 /* TipVC.storyboard */; };
+		9537D1022C905BAE009D9BB6 /* ReceiptVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9537D1012C905BAE009D9BB6 /* ReceiptVC.storyboard */; };
 		9543587A2C9055870049A3C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954358792C9055870049A3C1 /* AppDelegate.swift */; };
 		9543587C2C9055870049A3C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9543587B2C9055870049A3C1 /* SceneDelegate.swift */; };
 		9543587E2C9055870049A3C1 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9543587D2C9055870049A3C1 /* HomeVC.swift */; };
@@ -22,6 +22,12 @@
 		95A5B3142C91359800F1E15E /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A5B3132C91359800F1E15E /* MenuItem.swift */; };
 		95A5B3162C91384300F1E15E /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A5B3152C91384300F1E15E /* API.swift */; };
 		95A5B3182C913C1000F1E15E /* HomeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A5B3172C913C1000F1E15E /* HomeTableCell.swift */; };
+		95C585F32C92CE4D006863E8 /* ConfirmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C585F12C92CE4D006863E8 /* ConfirmCell.swift */; };
+		95C585F42C92CE4D006863E8 /* ConfirmCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95C585F22C92CE4D006863E8 /* ConfirmCell.xib */; };
+		95C585F62C92E543006863E8 /* TipOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C585F52C92E543006863E8 /* TipOptions.swift */; };
+		95C585F82C92F145006863E8 /* ReceiptItemRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C585F72C92F145006863E8 /* ReceiptItemRowCell.swift */; };
+		95C585FA2C92F382006863E8 /* ReceiptTipRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C585F92C92F382006863E8 /* ReceiptTipRowCell.swift */; };
+		95C585FC2C92F53E006863E8 /* ReceiptTotalRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C585FB2C92F53E006863E8 /* ReceiptTotalRowCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +35,8 @@
 		9537D0F92C9059D6009D9BB6 /* TipVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipVC.swift; sourceTree = "<group>"; };
 		9537D0FB2C9059E4009D9BB6 /* ReceiptVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptVC.swift; sourceTree = "<group>"; };
 		9537D0FD2C905A17009D9BB6 /* ConfirmVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConfirmVC.storyboard; sourceTree = "<group>"; };
-		9537D0FF2C905B68009D9BB6 /* Tip.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tip.storyboard; sourceTree = "<group>"; };
-		9537D1012C905BAE009D9BB6 /* Receipt.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Receipt.storyboard; sourceTree = "<group>"; };
+		9537D0FF2C905B68009D9BB6 /* TipVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TipVC.storyboard; sourceTree = "<group>"; };
+		9537D1012C905BAE009D9BB6 /* ReceiptVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ReceiptVC.storyboard; sourceTree = "<group>"; };
 		954358762C9055870049A3C1 /* TipShopApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipShopApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		954358792C9055870049A3C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9543587B2C9055870049A3C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +48,12 @@
 		95A5B3132C91359800F1E15E /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		95A5B3152C91384300F1E15E /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		95A5B3172C913C1000F1E15E /* HomeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableCell.swift; sourceTree = "<group>"; };
+		95C585F12C92CE4D006863E8 /* ConfirmCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmCell.swift; sourceTree = "<group>"; };
+		95C585F22C92CE4D006863E8 /* ConfirmCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfirmCell.xib; sourceTree = "<group>"; };
+		95C585F52C92E543006863E8 /* TipOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipOptions.swift; sourceTree = "<group>"; };
+		95C585F72C92F145006863E8 /* ReceiptItemRowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptItemRowCell.swift; sourceTree = "<group>"; };
+		95C585F92C92F382006863E8 /* ReceiptTipRowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptTipRowCell.swift; sourceTree = "<group>"; };
+		95C585FB2C92F53E006863E8 /* ReceiptTotalRowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptTotalRowCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +82,8 @@
 			children = (
 				9537D0F72C9059BF009D9BB6 /* ConfirmVC.swift */,
 				9537D0FD2C905A17009D9BB6 /* ConfirmVC.storyboard */,
+				95C585F12C92CE4D006863E8 /* ConfirmCell.swift */,
+				95C585F22C92CE4D006863E8 /* ConfirmCell.xib */,
 			);
 			path = Confirm;
 			sourceTree = "<group>";
@@ -78,7 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				9537D0F92C9059D6009D9BB6 /* TipVC.swift */,
-				9537D0FF2C905B68009D9BB6 /* Tip.storyboard */,
+				9537D0FF2C905B68009D9BB6 /* TipVC.storyboard */,
 			);
 			path = Tip;
 			sourceTree = "<group>";
@@ -87,7 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				9537D0FB2C9059E4009D9BB6 /* ReceiptVC.swift */,
-				9537D1012C905BAE009D9BB6 /* Receipt.storyboard */,
+				9537D1012C905BAE009D9BB6 /* ReceiptVC.storyboard */,
+				95C585F72C92F145006863E8 /* ReceiptItemRowCell.swift */,
+				95C585F92C92F382006863E8 /* ReceiptTipRowCell.swift */,
+				95C585FB2C92F53E006863E8 /* ReceiptTotalRowCell.swift */,
 			);
 			path = Receipt;
 			sourceTree = "<group>";
@@ -130,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				95A5B3132C91359800F1E15E /* MenuItem.swift */,
+				95C585F52C92E543006863E8 /* TipOptions.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -193,11 +211,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				954358862C9055880049A3C1 /* LaunchScreen.storyboard in Resources */,
-				9537D1002C905B68009D9BB6 /* Tip.storyboard in Resources */,
+				95C585F42C92CE4D006863E8 /* ConfirmCell.xib in Resources */,
+				9537D1002C905B68009D9BB6 /* TipVC.storyboard in Resources */,
 				954358832C9055880049A3C1 /* Assets.xcassets in Resources */,
 				954358812C9055870049A3C1 /* Main.storyboard in Resources */,
 				9537D0FE2C905A17009D9BB6 /* ConfirmVC.storyboard in Resources */,
-				9537D1022C905BAE009D9BB6 /* Receipt.storyboard in Resources */,
+				9537D1022C905BAE009D9BB6 /* ReceiptVC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95C585F32C92CE4D006863E8 /* ConfirmCell.swift in Sources */,
 				95A5B3142C91359800F1E15E /* MenuItem.swift in Sources */,
 				9543587E2C9055870049A3C1 /* HomeVC.swift in Sources */,
 				9537D0FC2C9059E4009D9BB6 /* ReceiptVC.swift in Sources */,
@@ -215,7 +235,11 @@
 				9537D0F82C9059BF009D9BB6 /* ConfirmVC.swift in Sources */,
 				9543587A2C9055870049A3C1 /* AppDelegate.swift in Sources */,
 				95A5B3162C91384300F1E15E /* API.swift in Sources */,
+				95C585F62C92E543006863E8 /* TipOptions.swift in Sources */,
 				9543587C2C9055870049A3C1 /* SceneDelegate.swift in Sources */,
+				95C585FA2C92F382006863E8 /* ReceiptTipRowCell.swift in Sources */,
+				95C585F82C92F145006863E8 /* ReceiptItemRowCell.swift in Sources */,
+				95C585FC2C92F53E006863E8 /* ReceiptTotalRowCell.swift in Sources */,
 				95A5B3182C913C1000F1E15E /* HomeTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
