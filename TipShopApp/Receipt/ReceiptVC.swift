@@ -11,6 +11,7 @@ class ReceiptVC: UIViewController {
     
     var items: [MenuItem]
     var tipAmount: TipOptions = .small
+    var total: Double = 0.0
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -23,6 +24,7 @@ class ReceiptVC: UIViewController {
     init(coder: NSCoder, items: [MenuItem], tipAmount: TipOptions) {
         self.items = items
         self.tipAmount = tipAmount
+        self.total = items.calculateTotal(with: tipAmount)
         super.init(coder: coder)!
     }
     
@@ -33,7 +35,22 @@ class ReceiptVC: UIViewController {
 
 extension ReceiptVC: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        
+        let row = indexPath.row
+        
+        if row < items.count {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "ReceiptItemRowCell", for: indexPath) as! ReceiptItemRowCell
+            cell.configure(item: items[indexPath.row])
+            return cell
+        } else if row == items.count {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "ReceiptTipRowCell", for: indexPath) as! ReceiptTipRowCell
+            cell.configure(tip: tipAmount)
+            return cell
+        } else {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "ReceiptTotalRowCell", for: indexPath) as! ReceiptTotalRowCell
+            cell.configure(total: total)
+            return cell
+        }
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

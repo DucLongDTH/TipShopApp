@@ -64,6 +64,11 @@
                                                 <constraint firstItem="XDS-pp-ASD" firstAttribute="top" secondItem="Xp7-mX-W8J" secondAttribute="top" constant="5" id="SlI-Wf-G4X"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="countLabel" destination="yzE-Bc-4OB" id="P5c-Ve-EAW"/>
+                                            <outlet property="nameLabel" destination="9yQ-PE-IXD" id="YH1-sn-5bI"/>
+                                            <outlet property="priceLabel" destination="d02-N4-efS" id="MjT-uT-unt"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="ReceiptTipRowCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReceiptTipRowCell" rowHeight="62" id="oYC-aR-SIS" customClass="ReceiptTipRowCell" customModule="TipShopApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="119" width="393" height="62"/>
@@ -75,7 +80,7 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="xC2-YW-F8y">
                                                     <rect key="frame" x="20" y="5" width="353" height="52"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wwl-uL-ph1">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wwl-uL-ph1">
                                                             <rect key="frame" x="0.0" y="0.0" width="176.66666666666666" height="52"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
@@ -97,6 +102,9 @@
                                                 <constraint firstAttribute="bottom" secondItem="xC2-YW-F8y" secondAttribute="bottom" constant="5" id="fft-2m-jLH"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="tipLabel" destination="9lu-58-w7S" id="L5C-QR-wkA"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="ReceiptTotalRowCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReceiptTotalRowCell" rowHeight="87" id="rCs-XG-RSv" customClass="ReceiptTotalRowCell" customModule="TipShopApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="181" width="393" height="87"/>
@@ -108,7 +116,7 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Mbc-bt-v2g">
                                                     <rect key="frame" x="40" y="5" width="313" height="77"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sSX-JI-wca">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sSX-JI-wca">
                                                             <rect key="frame" x="0.0" y="0.0" width="156.66666666666666" height="77"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
@@ -130,6 +138,9 @@
                                                 <constraint firstAttribute="trailing" secondItem="Mbc-bt-v2g" secondAttribute="trailing" constant="40" id="t19-UY-Zss"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="totalLabel" destination="Zdg-nk-0MI" id="t1H-XH-xbg"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77BB72922C96953F0074F917 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB72912C96953F0074F917 /* Extensions.swift */; };
 		9537D0F82C9059BF009D9BB6 /* ConfirmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9537D0F72C9059BF009D9BB6 /* ConfirmVC.swift */; };
 		9537D0FA2C9059D6009D9BB6 /* TipVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9537D0F92C9059D6009D9BB6 /* TipVC.swift */; };
 		9537D0FC2C9059E4009D9BB6 /* ReceiptVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9537D0FB2C9059E4009D9BB6 /* ReceiptVC.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		77BB72912C96953F0074F917 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		9537D0F72C9059BF009D9BB6 /* ConfirmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmVC.swift; sourceTree = "<group>"; };
 		9537D0F92C9059D6009D9BB6 /* TipVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipVC.swift; sourceTree = "<group>"; };
 		9537D0FB2C9059E4009D9BB6 /* ReceiptVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptVC.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				954358792C9055870049A3C1 /* AppDelegate.swift */,
 				9543587B2C9055870049A3C1 /* SceneDelegate.swift */,
 				95A5B3152C91384300F1E15E /* API.swift */,
+				77BB72912C96953F0074F917 /* Extensions.swift */,
 				95A5B3122C91357300F1E15E /* Model */,
 				9537D0F32C905846009D9BB6 /* Home */,
 				9537D0F42C905889009D9BB6 /* Confirm */,
@@ -237,6 +240,7 @@
 				95A5B3162C91384300F1E15E /* API.swift in Sources */,
 				95C585F62C92E543006863E8 /* TipOptions.swift in Sources */,
 				9543587C2C9055870049A3C1 /* SceneDelegate.swift in Sources */,
+				77BB72922C96953F0074F917 /* Extensions.swift in Sources */,
 				95C585FA2C92F382006863E8 /* ReceiptTipRowCell.swift in Sources */,
 				95C585F82C92F145006863E8 /* ReceiptItemRowCell.swift in Sources */,
 				95C585FC2C92F53E006863E8 /* ReceiptTotalRowCell.swift in Sources */,

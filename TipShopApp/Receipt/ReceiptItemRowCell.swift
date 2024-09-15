@@ -9,6 +9,10 @@ import UIKit
 
 class ReceiptItemRowCell: UITableViewCell {
 
+    @IBOutlet var countLabel: UILabel!
+    @IBOutlet var nameLabel: UILabel!
+    @IBOutlet var priceLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     
@@ -17,5 +21,11 @@ class ReceiptItemRowCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
-
+    
+    func configure(item: MenuItem){
+        countLabel.text = "\(item.count)"
+        nameLabel.text = item.name
+        priceLabel.text = "\(Double(item.count) * item.price)"
+        
+    }
 }
